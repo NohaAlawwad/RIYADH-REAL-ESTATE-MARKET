@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			#map path:nth-child(1) {
+				stroke:white !important;
+			}
+			#map path:nth-child(2) {
+				stroke:white !important;
+			}
+			#map path:nth-child(3) {
+				stroke:white !important;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="title" style="text-align: center;">
+			<h1>Average Riyadh Villas Sale Price(sample of 100 districts)</h1>
+		</div>
+		<div class="one" style="display:inline-block; float: left; width: 60%">
+			<div id="map" style="height:500px; display: inline-block;"></div>
+			<div id="linechart" style="height:200px;"></div>
+		</div>
+		<div class="two" style="display: inline-block; float:right; width: 30%">
+		<a href="/d3-dashboard/interactivemap1/"><button class="button" style="margin-left: 50px;">Rantal Apartments</button></a>
+			<!--<a href="/d3-dashboard/interactivemap2/"><button class="button" style="margin-left: 30px;">Villa Price Per unit area</button></a>
+-->
+			<div id="barchart" style="height:700px; display: block;"></div>
+		</div>
+    	<script src="https://d3js.org/d3.v4.min.js"></script>
+    	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	   	<script src="js/index.js"></script>
+	</body>
+</html>

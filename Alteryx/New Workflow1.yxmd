@@ -1,0 +1,792 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.7">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">F:\RawData.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RawData.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="رقم الإعلان" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="رقم المستخدم" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="وقت الإنشاء" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="وقت اخ تحديث" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="العمر اقل من" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="عدد الشقق" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="عدد غرف النوم" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="الدور" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="عدد المطبخ" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="مغلق" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="سكني أو تجاري" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="نوع العقار" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="غرفة سائق" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="دوبلكس" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="عوائل أم عزاب" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="مؤثثة" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="عدد الصالات" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="غرفة خادمة" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="سعر المتر" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="نوع المعلن" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="مسبح" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="مدفوع" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="السعر" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="مدة الإيجار" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="عدد الغرف" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="المساحة" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="اتجاه الشارع" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="عرض الشارع" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="للبيع أم الإيجار" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="عدد دورات المياة" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="Latitude" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="Longitude" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="region_name_ar" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="region_name_en" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="province_name" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="nearest_city_name_ar" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="nearest_city_name_en" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="district_name_ar" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="district_name_en" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="Zip Code No" size="254" source="File: F:\RawData.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1266" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Awwad\AppData\Local\Temp\Engine_4932_e6b5f1e099e44ddfba0f97be4e60018d_\Engine_7540_a27f71dbee9b470f8063854dbb98c712_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="54" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>province_name</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>الرياض</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[province_name] = "الرياض"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="54" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>مؤثثة</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>لا يوجد اثاث</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[مؤثثة] = "لا يوجد اثاث"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="342" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="وقت الإنشاء" selected="True" rename="date" />
+            <SelectField field="عدد غرف النوم" selected="True" />
+            <SelectField field="سكني أو تجاري" selected="True" />
+            <SelectField field="نوع العقار" selected="True" rename="c_type" />
+            <SelectField field="غرفة سائق" selected="True" />
+            <SelectField field="دوبلكس" selected="True" />
+            <SelectField field="مسبح" selected="True" />
+            <SelectField field="السعر" selected="True" rename="price" />
+            <SelectField field="مدة الإيجار" selected="True" />
+            <SelectField field="المساحة" selected="True" rename="area" />
+            <SelectField field="اتجاه الشارع" selected="True" />
+            <SelectField field="عرض الشارع" selected="True" />
+            <SelectField field="للبيع أم الإيجار" selected="True" rename="sale_or_rent" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="district_name_ar" selected="True" />
+            <SelectField field="district_name_en" selected="True" />
+            <SelectField field="year" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="414" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>c_type</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>فيلا</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[c_type] = "فيلا"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="462" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>c_type</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>شقة</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[c_type] = "شقة"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1134" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Awwad\AppData\Local\Temp\Engine_4932_e6b5f1e099e44ddfba0f97be4e60018d_\Engine_7540_e3774966410f4ed4acab6b0ec2d37e2f_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="498" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>sale_or_rent</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>للبيع</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[sale_or_rent] = "للبيع"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="534" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>sale_or_rent</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>للبيع</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[sale_or_rent] = "للبيع"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="150" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="رقم الإعلان" selected="False" />
+            <Field field="رقم المستخدم" selected="False" />
+            <Field field="وقت الإنشاء" selected="True" />
+            <Field field="وقت اخ تحديث" selected="False" />
+            <Field field="العمر اقل من" selected="False" />
+            <Field field="عدد الشقق" selected="False" />
+            <Field field="عدد غرف النوم" selected="False" />
+            <Field field="الدور" selected="False" />
+            <Field field="عدد المطبخ" selected="False" />
+            <Field field="مغلق" selected="False" />
+            <Field field="سكني أو تجاري" selected="False" />
+            <Field field="نوع العقار" selected="True" />
+            <Field field="غرفة سائق" selected="False" />
+            <Field field="دوبلكس" selected="False" />
+            <Field field="عوائل أم عزاب" selected="False" />
+            <Field field="مؤثثة" selected="True" />
+            <Field field="عدد الصالات" selected="False" />
+            <Field field="غرفة خادمة" selected="False" />
+            <Field field="سعر المتر" selected="True" />
+            <Field field="نوع المعلن" selected="False" />
+            <Field field="مسبح" selected="False" />
+            <Field field="مدفوع" selected="False" />
+            <Field field="السعر" selected="True" />
+            <Field field="مدة الإيجار" selected="True" />
+            <Field field="عدد الغرف" selected="False" />
+            <Field field="المساحة" selected="True" />
+            <Field field="اتجاه الشارع" selected="False" />
+            <Field field="عرض الشارع" selected="False" />
+            <Field field="للبيع أم الإيجار" selected="True" />
+            <Field field="عدد دورات المياة" selected="False" />
+            <Field field="Latitude" selected="False" />
+            <Field field="Longitude" selected="False" />
+            <Field field="region_name_ar" selected="False" />
+            <Field field="region_name_en" selected="False" />
+            <Field field="province_name" selected="False" />
+            <Field field="nearest_city_name_ar" selected="False" />
+            <Field field="nearest_city_name_en" selected="False" />
+            <Field field="district_name_ar" selected="False" />
+            <Field field="district_name_en" selected="False" />
+            <Field field="Zip Code No" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="رقم الإعلان" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="رقم المستخدم" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="وقت الإنشاء" source="File: F:\RawData.csv" type="DateTime" />
+            <Field name="وقت اخ تحديث" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="العمر اقل من" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="عدد الشقق" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="عدد غرف النوم" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="الدور" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="عدد المطبخ" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="مغلق" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="سكني أو تجاري" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="نوع العقار" size="10" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="غرفة سائق" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="دوبلكس" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="عوائل أم عزاب" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="مؤثثة" size="12" source="File: F:\RawData.csv" type="WString" />
+            <Field name="عدد الصالات" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="غرفة خادمة" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="سعر المتر" source="File: F:\RawData.csv" type="Int32" />
+            <Field name="نوع المعلن" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="مسبح" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="مدفوع" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="السعر" source="File: F:\RawData.csv" type="Int64" />
+            <Field name="مدة الإيجار" size="8" source="File: F:\RawData.csv" type="WString" />
+            <Field name="عدد الغرف" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="المساحة" source="File: F:\RawData.csv" type="Int32" />
+            <Field name="اتجاه الشارع" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="عرض الشارع" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="للبيع أم الإيجار" size="7" source="File: F:\RawData.csv" type="WString" />
+            <Field name="عدد دورات المياة" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="Latitude" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="Longitude" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="region_name_ar" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="region_name_en" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="province_name" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="nearest_city_name_ar" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="nearest_city_name_en" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="district_name_ar" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="district_name_en" size="254" source="File: F:\RawData.csv" type="V_WString" />
+            <Field name="Zip Code No" source="File: F:\RawData.csv" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="234" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="True" />
+          <InputFieldName>وقت الإنشاء</InputFieldName>
+          <Format>yyyy</Format>
+          <OutputFieldName>year</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert وقت الإنشاء To:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="642" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>مدة الإيجار</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>سنوي</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[مدة الإيجار] = "سنوي"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1170" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>district_name_ar</Field>
+            <Operator>IsNotNull</Operator>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([district_name_ar])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="810" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[price] &gt;= 3000 AND [price] &lt;= 60000</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[price] &gt;= 3000 AND [price] &lt;= 60000</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1014" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>district_name_en</Field>
+            <Operator>IsNotNull</Operator>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([district_name_en])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="594" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>area</Field>
+            <Operator>!=</Operator>
+            <Operands>
+              <Operand>0</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[area] != 0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="690" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[area] &gt;= 280 AND [area] &lt;= 850</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[area] &gt;= 280 AND [area] &lt;= 850</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="978" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[price]/[area]" field="Price Per Unit Area" size="8" type="Int64" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Price Per Unit Area = [price]/[area]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1074" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Price Per Unit Area] &gt;= 1000 AND [Price Per Unit Area] &lt;= 12000</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Price Per Unit Area] &gt;= 1000 AND [Price Per Unit Area] &lt;= 12000</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1266" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">F:\price per district\priceperunitarea_Villas.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>65001</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>priceperunitarea_Villas.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="882" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>سكني أو تجاري</Field>
+            <Operator>!=</Operator>
+            <Operands>
+              <Operand>تجاري</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[سكني أو تجاري] != "تجاري"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="786" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>دوبلكس</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>ليست دوبلكس</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[دوبلكس] = "ليست دوبلكس"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="True" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="True" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="True" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="False" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="True" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="True" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="True" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="True" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="True" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="True" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="True" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="True" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="True" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>New Workflow1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
